@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+   
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+ <style>
+ 
+ </style>
+<div class="card"  style="height: 750px; width: 800px; left: 250px; top: 10px;">
+  <div class="card-body">
+    <div class="card-title  d-flex justify-content-between py-4 px-3 align-items-center" >
+      <h2>Notifications <span class=" badge  text-white  fs-6 "  id="nb" style="bottom:10px; background-color: blue;  ">3</span></h2> 
+      <a href="#" class="text-decoration-none text-dark" >Mark all as read</a>
+      
+    </div>
+   <div class="container">
+
+          <div class="d-flex align-items-center notif z-10 bg-primary text-dark bg-opacity-10 p-2 m-1 rounded" >
+            <img src="assets/images/avatar-mark-webber.webp" class="mx-2"  width="40px" alt=""> 
+            <div class="d-flex flex-column">
+              <p class="m-0">
+                <span class="text-dark p-2" style="font-weight: bold; ">Mark Webber</span>
+                reacted to your recent post <span class="text-muted"style="font-weight: bold;" >My first tourmanent today!</span>
+                <span class="rounded-circle bg-danger p-1 m-1 notification" ></span> 
+              </p>
+              <span class="day">1m ago</span>
+            </div>
+          </div>
+       
+          <div class="d-flex align-items-center notif bg-primary text-dark bg-opacity-10 p-2 m-1 rounded " >
+            <img src="assets/images/avatar-angela-gray.webp" class="mx-2"  width="40px"  alt=""> 
+            <div class="d-flex flex-column">
+              <p class="m-0">
+                <span class="text-dark p-2 " style="font-weight: bold;">Angela Gray</span>
+                followed you <span class="rounded-circle  " ></span>
+                <span class="rounded-circle bg-danger p-1 m-1 notification"  ></span> 
+              </p>
+              <span class="day">3m ago</span>
+           </div>
+          </div>
+          
+
+            <div class="d-flex align-items-center notif bg-primary text-dark bg-opacity-10 p-2 m-1 rounded " >
+              <img src="assets/images/avatar-jacob-thompson.webp" class="mx-2"  width="40px" alt=""> 
+              <div class="d-flex flex-column">
+                <p class="m-0">
+              <span class="text-dark p-2" style="font-weight: bold;"> Jacob Thompson</span>
+               has joined your group <span class="" style="font-weight: bold; color: blue;">Chess club
+              </span> 
+               <span class="rounded-circle bg-danger p-1 m-1 notification"  ></span> 
+             
+              </p>
+              <span class="day">1day ago</span>
+           </div>
+          </div>
+          
+        
+          <div class="d-flex align-items-center  text-dark bg-opacity-10 p-2 m-1 rounded "  >
+            <img src="assets/images/avatar-rizky-hasanuddin.webp"  class="mx-2"  width="40px" alt=""> 
+            <div class="d-flex flex-column">
+              <p class="m-0">
+            <span class="text-dark p-2 " style="font-weight: bold;">Rizky Hasanuddin</span>
+             sent you a private message 
+            
+            </p>
+            <span class="day" >1day ago</span>
+         </div>
+        </div>
+        
+          <div class="card  ps-4 w-75"  style="margin-left: 80px;" >
+            <div class="card-body">
+              <card class="text">
+                Hello , thank you for setting uo the Chess Club. I've been a member for a few weeks 
+                now and I'm already having lots of fun and improving my game. 
+              </card>
+            </div>
+          </div>
+          
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center text-dark bg-opacity-10 p-2 m-1 rounded" >
+               <img src="assets/images/avatar-kimberly-smith.webp" class="mx-2"  width="40px"  alt=""> 
+                <div class="d-flex flex-column">
+                  <p class="m-0">
+                  <span class="text-dark p-2" style="font-weight: bold;">Kimberly Smith</span>
+                   commented on your picture
+                  </p>
+                  <span class="day" >1day ago</span>
+               </div>
+              </div>
+              <img src="assets/images/image-chess.webp " class="m-0" style="height:28px ; width:28px; margin-top: 100px; left:50px;" alt="">
+            </div>
+           
+              <div class="d-flex align-items-center text-dark bg-opacity-10 p-2 m-1 rounded  " >
+                <img src="assets/images/avatar-nathan-peterson.webp" class="mx-2"  width="40px"   alt=""> 
+                <div class="d-flex flex-column">
+                  <p class="m-0" margin-top="50px">
+                <span class="text-dark p-2" style="font-weight: bold;">Nathan Peterson</span>
+                reacted to your recent post <span class="text-muted"style="font-weight: bold;">
+                5 end-game strategies to increase your  <br> win rate</span>
+              </p>
+              <span class="day" >1weeks ago</span>
+           </div>
+          </div>
+             
+                <div class="d-flex align-items-center text-dark bg-opacity-10 p-2 m-1 rounded" >
+                  <img src="assets/images/avatar-anna-kim.webp" class="mx-2"  width="40px"  alt=""> 
+                  <div class="d-flex flex-column">
+                    <p class="m-0">
+                  <span class="text-dark p-2" style="font-weight: bold;">Annan Kim</span>
+                   let the  group <span class="" style="font-weight: bold; color: blue;">Chess club</span> 
+                  </p>
+                  <span class="day" >2weeks ago</span>
+               </div>
+              </div>
+              
+      </div>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+  <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script> 
+</body>
+</html>

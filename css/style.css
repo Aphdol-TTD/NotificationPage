@@ -1,0 +1,16 @@
+.notification{
+   display: inline-block;
+             width: 8px;
+             height: 8px;
+             margin: 2px;
+             background-color: rgb(223, 15, 15);
+}
+.day{
+   margin-left: 5px;
+}
+.cardio{
+   margin-left: 50px;
+}
+.read{
+   background-color: #fff !important;
+}
